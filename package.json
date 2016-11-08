@@ -1,0 +1,28 @@
+{
+  "name": "platzigram",
+  "version": "1.0.0",
+  "description": "platzigram desarrollado por Luis Rodríguez",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisrdz5/platzigram.git"
+  },
+  "author": "Luis Rodríguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisrdz5/platzigram/issues"
+  },
+  "homepage": "https://github.com/luisrdz5/platzigram#readme",
+  "dependencies": {
+    "express": "^4.14.0",    
+    "materialize-css": "^0.97.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-rename": "^1.2.2"
+  }
+}
