@@ -31,6 +31,9 @@ Preprocesadores css : Sirven para manejar variables y algunos comandos que no pe
 Gestor de templates: Para agregar template a todas nuestras paginas
 #Jade/pug 
 
+*****************************  Enlaces importantes  **********************************
+*favicon generator: Genera los favicons para todas las resoluciones 
+*html to jade : Convierte codigo html en codigo jade 
 
 
 
@@ -41,6 +44,6 @@ Gestor de templates: Para agregar template a todas nuestras paginas
 -Se agrega con npm gulp y gulp-sass pero como dependencia de desarrollo 
 -Se instala Gulp-rename para poder renombrar el archivo index.css por el nombre que necesitamos
 -Se agrego el paquete pug para generar templates para nuestro sitio y se definio una carpeta estatica/publica con express.static  a la cual pueden accesar los usuarios y en la que pondremos nuestros assets 
-
+-Se creo la carpeta de assets, se agrgo la tarea en gulp para que lo copie a carpeta public y se agrego el favicon 
 
 
