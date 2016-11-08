@@ -28,6 +28,10 @@ Preprocesadores css : Sirven para manejar variables y algunos comandos que no pe
 #Less
 #Stylus
 
+Gestor de templates: Para agregar template a todas nuestras paginas
+#Jade/pug 
+
+
 
 
 -------------------   Pasos para llevar a cabo el proyecto ---------------------------
@@ -36,5 +40,7 @@ Preprocesadores css : Sirven para manejar variables y algunos comandos que no pe
 -Se agrego materialize-css como dependencia y se elimino del codigo de la app
 -Se agrega con npm gulp y gulp-sass pero como dependencia de desarrollo 
 -Se instala Gulp-rename para poder renombrar el archivo index.css por el nombre que necesitamos
+-Se agrego el paquete pug para generar templates para nuestro sitio y se definio una carpeta estatica/publica con express.static  a la cual pueden accesar los usuarios y en la que pondremos nuestros assets 
+
 
 
