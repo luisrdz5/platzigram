@@ -27,6 +27,9 @@ Preprocesadores css : Sirven para manejar variables y algunos comandos que no pe
 Gestor de templates: Para agregar template a todas nuestras paginas
 #Jade/pug 
 
+Paginadores: permite solo cargar una vez la pagina en el cliente y utilizar paginación para solo cargar los datos
+#Page.js
+
 *****************************  Enlaces importantes  **********************************
 *favicon generator: Genera los favicons para todas las resoluciones 
 *html to jade : Convierte codigo html en codigo jade 
@@ -40,4 +43,4 @@ Gestor de templates: Para agregar template a todas nuestras paginas
 -Se agrego el paquete pug para generar templates para nuestro sitio y se definio una carpeta estatica/publica con express.static  a la cual pueden accesar los usuarios y en la que pondremos nuestros assets 
 -Se creo la carpeta de assets, se agrego la tarea en gulp para que lo copie a carpeta public y se agrego el favicon 
 -Se instalo browserify (Package bundler) , babelify (compatibilidad con ecma 2015) y vinyl-source-stream (para poder convertir la salida de babel a algo entendible por gulp )
-
+- Se agrego page.js
