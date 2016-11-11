@@ -29,6 +29,7 @@ function compile(watch){
 			.pipe(source('index.js'))
 			.pipe(rename('app.js'))
 			.pipe(gulp.dest('public'));	
+			console.log('--> Entre a procesa . . .');
 	}
 	if (watch) {
 		bundle.on('update',function(){

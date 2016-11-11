@@ -33,6 +33,12 @@ Paginadores: permite solo cargar una vez la pagina en el cliente y utilizar pagi
 Observador: Paquete que observa cuando hay cambios y ejecuta tareas definidas para generar todo lo necesario
 #watchify
 
+Generador de templates semi automatizados usando DOM 
+#yo-yo
+
+Limpiador de secciones 
+#empty-element
+
 
 *****************************  Enlaces importantes  **********************************
 *favicon generator: Genera los favicons para todas las resoluciones 
@@ -50,3 +56,4 @@ Observador: Paquete que observa cuando hay cambios y ejecuta tareas definidas pa
 -Se instalo browserify (Package bundler) , babelify (compatibilidad con ecma 2015) y vinyl-source-stream (para poder convertir la salida de babel a algo entendible por gulp )
 - Se agrego page.js
 - Se automatiza el build de nuestro proyecto, agregando watchify para que cuando halla algun cambio automaticamente haga el bundle de la aplicación
+-Se agrego libreria de yo-yo para poder tener templates en el contenido y se instalo la libreria empty-element para poder limpiar las secciones mientras cargamos las paginas 
