@@ -4,8 +4,8 @@ var main = document.getElementById('main-contaniner');
 
 page('/', function(ctx, next){
 	main.innerHTML = 'Home';
-})
+});
 page('/signup', function(ctx, next){
-	main.innerHTML = 'signup';
-})
+	main.innerHTML = 'Sign up ';
+});
 page();

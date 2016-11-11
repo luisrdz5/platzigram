@@ -30,9 +30,14 @@ Gestor de templates: Para agregar template a todas nuestras paginas
 Paginadores: permite solo cargar una vez la pagina en el cliente y utilizar paginación para solo cargar los datos
 #Page.js
 
+Observador: Paquete que observa cuando hay cambios y ejecuta tareas definidas para generar todo lo necesario
+#watchify
+
+
 *****************************  Enlaces importantes  **********************************
 *favicon generator: Genera los favicons para todas las resoluciones 
 *html to jade : Convierte codigo html en codigo jade 
+*npm scripts : automatizacion de procesos npm
 
 -------------------   Pasos para llevar a cabo el proyecto ---------------------------
 
@@ -44,3 +49,4 @@ Paginadores: permite solo cargar una vez la pagina en el cliente y utilizar pagi
 -Se creo la carpeta de assets, se agrego la tarea en gulp para que lo copie a carpeta public y se agrego el favicon 
 -Se instalo browserify (Package bundler) , babelify (compatibilidad con ecma 2015) y vinyl-source-stream (para poder convertir la salida de babel a algo entendible por gulp )
 - Se agrego page.js
+- Se automatiza el build de nuestro proyecto, agregando watchify para que cuando halla algun cambio automaticamente haga el bundle de la aplicación
