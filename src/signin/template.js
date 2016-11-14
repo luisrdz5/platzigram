@@ -2,7 +2,7 @@ var yo =require('yo-yo');
 var landing = require('../landing');
 
 
-var signupform = yo `<div class="col s12 m7">
+var siginForm = yo `<div class="col s12 m7">
 							<div class="row">
 								<div class="signup-box">
 									<h1 class="platzigram"> Platzigram </h1>
@@ -16,11 +16,9 @@ var signupform = yo `<div class="col s12 m7">
 										</div>
 										<div class="divider"></div>
 										<div class="section">
-											<input type="email" name="email" placeholder="Correo Electrónico">
-											<input type="text" name="name" placeholder="Nombre Completo">
 											<input type="text" name="username" placeholder="Nombre de Usuario">
 											<input type="password" name="password" placeholder="Contraseña">
-											<button class="btn waves-effect waves-light btn-signup" type="submit">Regístrate</button>
+											<button class="btn waves-effect waves-light btn-signup" type="submit">Iniciar Sesión</button>
 										</div>
 									</form>
 								</div>	
@@ -33,4 +31,4 @@ var signupform = yo `<div class="col s12 m7">
 						</div> `
 
 
-module.exports = landing(signupform)
+module.exports = landing(siginForm)
