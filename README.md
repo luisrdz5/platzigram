@@ -39,6 +39,9 @@ Generador de templates semi automatizados usando DOM
 Limpiador de secciones 
 #empty-element
 
+Libreria para cambiar el titulo cuando se usan templates 
+#title 
+
 
 *****************************  Enlaces importantes  **********************************
 *favicon generator: Genera los favicons para todas las resoluciones 
@@ -57,3 +60,4 @@ Limpiador de secciones
 - Se agrego page.js
 - Se automatiza el build de nuestro proyecto, agregando watchify para que cuando halla algun cambio automaticamente haga el bundle de la aplicación
 -Se agrego libreria de yo-yo para poder tener templates en el contenido y se instalo la libreria empty-element para poder limpiar las secciones mientras cargamos las paginas 
+- Se agregaron los titulos de las paginas y se agrego la libreria title 
