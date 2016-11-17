@@ -47,6 +47,7 @@ Libreria para cambiar el titulo cuando se usan templates
 *favicon generator: Genera los favicons para todas las resoluciones 
 *html to jade : Convierte codigo html en codigo jade 
 *npm scripts : automatizacion de procesos npm
+*Font Awesome :  iconos gratis para nuestras apps (facebook, twitter, etc.)
 
 -------------------   Pasos para llevar a cabo el proyecto ---------------------------
 
@@ -61,3 +62,5 @@ Libreria para cambiar el titulo cuando se usan templates
 - Se automatiza el build de nuestro proyecto, agregando watchify para que cuando halla algun cambio automaticamente haga el bundle de la aplicación
 -Se agrego libreria de yo-yo para poder tener templates en el contenido y se instalo la libreria empty-element para poder limpiar las secciones mientras cargamos las paginas 
 - Se agregaron los titulos de las paginas y se agrego la libreria title 
+- Se incluyo la libreria de font awesome, se corrigio la libreria materialize por que presentaba algunos problemas y se agrego el timeline
+

@@ -11,7 +11,8 @@ var signupform = yo `<div class="col s12 m7">
 										<div class="section">
 											<a class="btn btn-fb hide-on-med-and-down "> 	Iniciar Sesion con Facebook 
 											</a>
-											<a class="btn btn-fb hide-on-large-only "> 	Iniciar Sesion 
+											<a class="btn btn-fb hide-on-large-only "> <i class="fa fa-facebook-official" aria-hidden="true"></i>
+												Iniciar Sesion 
 											</a>
 										</div>
 										<div class="divider"></div>
