@@ -63,4 +63,5 @@ Libreria para cambiar el titulo cuando se usan templates
 -Se agrego libreria de yo-yo para poder tener templates en el contenido y se instalo la libreria empty-element para poder limpiar las secciones mientras cargamos las paginas 
 - Se agregaron los titulos de las paginas y se agrego la libreria title 
 - Se incluyo la libreria de font awesome, se corrigio la libreria materialize por que presentaba algunos problemas y se agrego el timeline
+- Se agrego recursión y funcionalidad al timeline utilizando un arreglo para obtener los datos 
 
