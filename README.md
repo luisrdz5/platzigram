@@ -42,6 +42,11 @@ Limpiador de secciones
 Libreria para cambiar el titulo cuando se usan templates 
 #title 
 
+Libreria para cambiar los formatos de fechas para diferentes paises
+#moment.js
+
+
+
 
 *****************************  Enlaces importantes  **********************************
 *favicon generator: Genera los favicons para todas las resoluciones 
@@ -65,3 +70,4 @@ Libreria para cambiar el titulo cuando se usan templates
 - Se incluyo la libreria de font awesome, se corrigio la libreria materialize por que presentaba algunos problemas y se agrego el timeline
 - Se agrego recursión y funcionalidad al timeline utilizando un arreglo para obtener los datos 
 - Se agrego funcionalidad al boton me gusta (cambiar imagen , sumar y restar cantidad de likes ) con yoyo utilizando dinamic updates.
+- Se modifico el formato de la fecha utilizando moment.js
