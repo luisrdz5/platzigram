@@ -21,11 +21,11 @@ page('/', function(ctx, next){
 		},
 		{
 			user: {
-			username: 'lrodriguez',
+			username: 'lrodriguez01',
 			avatar: 'https://pbs.twimg.com/profile_images/442983338/DSC00544_400x400.JPG'
 			},
 			url: 'office.jpg',
-			likes: 4,
+			likes: 14,
 			liked: true,
 			createdAt: new Date().setDate(new Date().getDate() - 10)
 		}

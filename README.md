@@ -45,6 +45,8 @@ Libreria para cambiar el titulo cuando se usan templates
 Libreria para cambiar los formatos de fechas para diferentes paises
 #moment.js
 
+Libreria para internacionalizar aplicaciones. 
+#format.js
 
 
 
@@ -71,3 +73,4 @@ Libreria para cambiar los formatos de fechas para diferentes paises
 - Se agrego recursión y funcionalidad al timeline utilizando un arreglo para obtener los datos 
 - Se agrego funcionalidad al boton me gusta (cambiar imagen , sumar y restar cantidad de likes ) con yoyo utilizando dinamic updates.
 - Se modifico el formato de la fecha utilizando moment.js
+- Se internacionalizo el sitio con format.js quitando moment.js
