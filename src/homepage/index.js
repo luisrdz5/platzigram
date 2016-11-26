@@ -15,7 +15,7 @@ page('/', function(ctx, next){
 			avatar: 'https://pbs.twimg.com/profile_images/442983338/DSC00544_400x400.JPG'
 			},
 			url: 'office.jpg',
-			likes: 10,
+			likes: 0,
 			liked: false,
 			createdAt: new Date()
 		},
@@ -25,7 +25,17 @@ page('/', function(ctx, next){
 			avatar: 'https://pbs.twimg.com/profile_images/442983338/DSC00544_400x400.JPG'
 			},
 			url: 'office.jpg',
-			likes: 14,
+			likes: 10,
+			liked: true,
+			createdAt: new Date().setDate(new Date().getDate() - 10)
+		},
+		{
+			user: {
+			username: 'lrodriguez01',
+			avatar: 'https://pbs.twimg.com/profile_images/442983338/DSC00544_400x400.JPG'
+			},
+			url: 'office.jpg',
+			likes: 1,
 			liked: true,
 			createdAt: new Date().setDate(new Date().getDate() - 10)
 		}

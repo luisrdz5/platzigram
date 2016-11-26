@@ -73,4 +73,5 @@ Libreria para internacionalizar aplicaciones.
 - Se agrego recursión y funcionalidad al timeline utilizando un arreglo para obtener los datos 
 - Se agrego funcionalidad al boton me gusta (cambiar imagen , sumar y restar cantidad de likes ) con yoyo utilizando dinamic updates.
 - Se modifico el formato de la fecha utilizando moment.js
-- Se internacionalizo el sitio con format.js quitando moment.js
+- Se internacionalizo el sitio con IntlRelativeFormat de  format.js quitando moment.js
+- Se agrego la funcionalidad multiidioma utilizando IntlMessageFormat de format.js
