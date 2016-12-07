@@ -75,4 +75,5 @@ Libreria para internacionalizar aplicaciones.
 - Se modifico el formato de la fecha utilizando moment.js
 - Se internacionalizo el sitio con IntlRelativeFormat de  format.js quitando moment.js
 - Se agrego la funcionalidad multiidioma utilizando IntlMessageFormat de format.js
-- Se agregaron las traducciones a los textos que nos faltaron y se agrego funcionalidad al boton idioma
+- Se agregaron las traducciones a los textos que nos faltaron 
+- Se agrego funcionalidad al boton idioma
