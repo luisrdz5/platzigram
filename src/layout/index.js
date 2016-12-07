@@ -1,4 +1,5 @@
 var yo =require('yo-yo');
+var translate = require('../translate');
 
 module.exports = function(content){
 
@@ -16,7 +17,7 @@ return  yo `
 								<i class="fa fa-user" aria-hidden="true"></i> 
 							</a>
 							<ul id="dropUser" class="dropdown-content">
-								<li><a href="#">Salir </a></li>
+								<li><a href="#">${translate.message('logout')} </a></li>
 							</ul>						
 						</div>
 					</div>
