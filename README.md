@@ -77,3 +77,4 @@ Libreria para internacionalizar aplicaciones.
 - Se agrego la funcionalidad multiidioma utilizando IntlMessageFormat de format.js
 - Se agregaron las traducciones a los textos que nos faltaron 
 - Se agrego funcionalidad al boton idioma
+- Se utilizara superagent para hacer request tipo ajax
