@@ -78,3 +78,4 @@ Libreria para internacionalizar aplicaciones.
 - Se agregaron las traducciones a los textos que nos faltaron 
 - Se agrego funcionalidad al boton idioma
 - Se utilizara superagent para hacer request tipo ajax
+- Se modificara la funcionalidad tipo ajax para realizarla con axios (solo por aprender =P)

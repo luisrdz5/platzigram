@@ -4,9 +4,10 @@ var template = require('./template');
 var title = require('title');
 var request = require('superagent');
 var header = require('../header');
+var axios require('axios');
 
 
-page('/', header, loadPictures , function (ctx, next){
+page('/', header, loadPicturesAxios , function (ctx, next){
 	title('Platzigram');
 	var main = document.getElementById('main-contaniner');
 	empty(main).appendChild(template(ctx.pictures));
@@ -20,6 +21,17 @@ function loadPictures(ctx, next){
 			if (err) return console.log(err);
 			ctx.pictures = res.body;
 			next();
+		})
+}
+function loadPicturesAxios(ctx, next){
+	axios
+		.get('/api/pictures')
+		.then(function (res) {
+			ctx.pictures = res.data;	
+			next();		
+		})
+		.catch(function (err){
+			console.log(err);
 		})
 }
 
