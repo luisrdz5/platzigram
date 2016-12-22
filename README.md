@@ -80,4 +80,5 @@ Libreria para internacionalizar aplicaciones.
 - Se utilizara superagent para hacer request tipo ajax
 - Se modificara la funcionalidad tipo ajax para realizarla con axios (solo por aprender =P)
 - Se modifico la funcionalidad de ajax a fetch  (solo por aprender =P)
-- Se modifico la funcionalidad de ajax a asyncload (con ayuda de presets , 'syntax-async-functions', 'transform-regenerator' ) y se corrigieron algunos bugs
+- Se modifico la funcionalidad de ajax a asyncload (con ayuda de presets , syntax-async-functions, transform-regenerator y polyfills ) y se corrigieron algunos bugs
+- Se agrego la forma para subir archivos
