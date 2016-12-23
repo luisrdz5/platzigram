@@ -48,6 +48,16 @@ Libreria para cambiar los formatos de fechas para diferentes paises
 Libreria para internacionalizar aplicaciones. 
 #format.js
 
+Librerias para utilizar ajax en nuestros proyectos.
+#superagent
+#axios
+#fetch
+#asyncload
+
+Libreria para subir archivos 
+multer
+
+
 
 
 *****************************  Enlaces importantes  **********************************
@@ -82,3 +92,4 @@ Libreria para internacionalizar aplicaciones.
 - Se modifico la funcionalidad de ajax a fetch  (solo por aprender =P)
 - Se modifico la funcionalidad de ajax a asyncload (con ayuda de presets , syntax-async-functions, transform-regenerator y polyfills ) y se corrigieron algunos bugs
 - Se agrego la forma para subir archivos
+- se agrego la funcionalidad backend para dubir fotos ( se utilizo libreria multer)
