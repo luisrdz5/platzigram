@@ -36,6 +36,7 @@ module.exports = function(pictures) {
 			.end(function (err,res){
 				console.log(arguments);
 			})
+			tooglebuttons();
 	}
 
 	function tooglebuttons(){
