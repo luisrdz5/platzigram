@@ -92,4 +92,6 @@ multer
 - Se modifico la funcionalidad de ajax a fetch  (solo por aprender =P)
 - Se modifico la funcionalidad de ajax a asyncload (con ayuda de presets , syntax-async-functions, transform-regenerator y polyfills ) y se corrigieron algunos bugs
 - Se agrego la forma para subir archivos
-- se agrego la funcionalidad backend para dubir fotos ( se utilizo libreria multer)
+- se agrego la funcionalidad backend para Subir fotos ( se utilizo libreria multer)
+____________________________________________________________________________________________________
+- Se resolvio el primer desafio agregando a los usuarios una pantalla con una galeria de sus fotos. 
