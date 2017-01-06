@@ -95,3 +95,4 @@ multer
 - se agrego la funcionalidad backend para Subir fotos ( se utilizo libreria multer)
 ____________________________________________________________________________________________________
 - Se resolvio el primer desafio agregando a los usuarios una pantalla con una galeria de sus fotos. 
+- Se resolvio el segundo desafio agregando un spinner al cargar las fotos. 
