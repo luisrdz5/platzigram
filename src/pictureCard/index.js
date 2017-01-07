@@ -7,8 +7,9 @@ module.exports = function (pic) {
 	function render(picture){
 		return yo`
 		  <div class="card ${picture.liked ? 'liked' : ''} ">
-		    <div class="card-image">
-		      <img class="activator" src="${picture.url}">
+		    <div class="card-image">  	
+		      	<img class="activator" src="${picture.url}" ondblclick=${like.bind(null, null, true)} />
+		      	<i class="fa fa-heart like-heart ${picture.likeHeart ? 'liked' : ''}" >   </i>
 		    </div>
 		    <div class="card-content">
 		      <a href="/${picture.user.username}" class="card-title">
@@ -25,13 +26,26 @@ module.exports = function (pic) {
 		  </div>`;
 
 	}
-
-
-	  function like(liked){
-	  	pic.liked= liked;
+	  function like(liked, dblclick){
+	  	if (dblclick){
+	  		pic.likeHeart = pic.liked = !pic.liked;	  
+	  		liked = pic.liked;		
+	  	} else {
+	  		pic.liked = liked;
+	  	}
+	  	/*pic.liked= liked;*/
 	  	pic.likes += liked ? 1 : -1;
 	  	var newEl = render(pic);
 	  	yo.update(el,newEl);
+
+	  	setTimeout(function (){
+	  		pic.likeHeart = false ; 
+	  		var newEl = render(pic);
+	  		yo.update(el,newEl);
+	  	}, 1500)
+
+
+
 	  	return false;
 	  }
 

@@ -96,3 +96,5 @@ multer
 ____________________________________________________________________________________________________
 - Se resolvio el primer desafio agregando a los usuarios una pantalla con una galeria de sus fotos. 
 - Se resolvio el segundo desafio agregando un spinner al cargar las fotos. 
+- Se resolvio el tercer desafio agregando una vista a cada imagen del perfil de usuario.
+- Se resolvio el cuarto desafio agregando una animacion al dar doble click a la imagen mostrara un corazon si es que se activa la funcion me gusta
