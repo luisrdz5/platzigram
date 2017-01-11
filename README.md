@@ -57,7 +57,8 @@ Librerias para utilizar ajax en nuestros proyectos.
 Libreria para subir archivos 
 multer
 
-
+libreria para utilizar la webcam
+webcamjs
 
 
 *****************************  Enlaces importantes  **********************************
@@ -98,3 +99,4 @@ ________________________________________________________________________________
 - Se resolvio el segundo desafio agregando un spinner al cargar las fotos. 
 - Se resolvio el tercer desafio agregando una vista a cada imagen del perfil de usuario.
 - Se resolvio el cuarto desafio agregando una animacion al dar doble click a la imagen mostrara un corazon si es que se activa la funcion me gusta
+- Se agrego la funcionalidad para capturar foto con la webcam del equipo.

@@ -6664,3 +6664,6 @@ body {
   display: block;
   transition: all .5s ease;
   opacity: 1; }
+
+.modal-footer .btn, .modal-footer .btn-large {
+  float: none !important; }
